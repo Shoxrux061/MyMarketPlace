@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">MyMarketPlace</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lookAll">Смотреть все</string>
+    <string name="face">Лицо</string>
+    <string name="body">Тело</string>
+    <string name="zagar">Загар</string>
+    <string name="mask">Маски</string>
+
+</resources>

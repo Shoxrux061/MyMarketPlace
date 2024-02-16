@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="uz.pixelgame.mymarketplace.presentation.main.MainScreen"
+        android:label="screen_main"
+        tools:layout="@layout/screen_main" >
+        <action
+            android:id="@+id/action_mainScreen_to_detailScreen"
+            app:destination="@id/detailScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_loginScreen"
+            app:destination="@id/loginScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_registrationScreen"
+            app:destination="@id/registrationScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="uz.pixelgame.mymarketplace.presentation.auth.LoginScreen"
+        android:label="screen_login"
+        tools:layout="@layout/screen_login" >
+        <action
+            android:id="@+id/action_loginScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="uz.pixelgame.mymarketplace.presentation.splash.SplashScreen"
+        android:label="screen_splash"
+        tools:layout="@layout/screen_splash" >
+        <action
+            android:id="@+id/action_splashScreen_to_loginScreen"
+            app:destination="@id/loginScreen" />
+        <action
+            android:id="@+id/action_splashScreen_to_registrationScreen"
+            app:destination="@id/registrationScreen" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailScreen"
+        android:name="uz.pixelgame.mymarketplace.presentation.details.DetailScreen"
+        android:label="screen_detail"
+        tools:layout="@layout/screen_detail" />
+    <fragment
+        android:id="@+id/registrationScreen"
+        android:name="uz.pixelgame.mymarketplace.presentation.auth.RegistrationScreen"
+        android:label="screen_registration"
+        tools:layout="@layout/screen_registration" >
+        <action
+            android:id="@+id/action_registrationScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+</navigation>

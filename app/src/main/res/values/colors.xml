@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#FF000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="activeButtonColor">#DC4894</color>
+    <color name="notActiveButtonColor">#CFCFCF</color>
+    <color name="edtColor">#F6F3F3</color>
+    <color name="nav_bar_color">#FFFFFF</color>
+    <color name="pink">#DC4894</color>
+    <color name="textGray">#505050</color>
+    <color name="rdBtnChecked">#2E2E2E</color>
+    <color name="rdBtnNotChecked">#E9E9E9</color>
+    <color name="checkedTextColor">#fff</color>
+    <color name="notCheckedTextColor">#5A5A5A</color>
+</resources>
